@@ -1,0 +1,83 @@
+{
+	"minVersion": "0.4",
+	"headerImage": "https://enmity-mod.github.io/repo/banner.jpg",
+	"class": "DepictionTabView",
+	"tintColor": "#6D00FF",
+	"backgroundColor": "#6D00FF",
+	"tabs": [
+		{
+			"class": "DepictionStackView",
+			"tabname": "Details",
+			"views": [
+				{
+					"class": "DepictionScreenshotsView",
+					"itemCornerRadius": 5,
+					"itemSize": "{0, 400}",
+					"screenshots": [
+						{
+							"url": "https://enmity-mod.github.io/repo/screenshots_iphone/settings.png",
+							"accessibilityText": "Enmity being inject into Discord's settings"
+						},
+						{
+							"url": "https://enmity-mod.github.io/repo/screenshots_iphone/plugins.png",
+							"accessibilityText": "List of Enmity plugins"
+						},
+						{
+							"url": "https://enmity-mod.github.io/repo/screenshots_iphone/chat.png",
+							"accessibilityText": "Discord's chat with a custom theme applied"
+						},
+						{
+							"url": "https://enmity-mod.github.io/repo/screenshots_iphone/profile.png",
+							"accessibilityText": "A Discord profile showing a custom Enmity badge"
+						}
+					]
+				},
+				{
+					"class": "DepictionSpacerView",
+					"spacing": 15
+				},
+				{
+					"class": "DepictionHeaderView",
+					"title": "Enmity"
+				},
+				{
+					"class": "DepictionSubheaderView",
+					"title": "The power of addons, all in your hand.",
+					"useBottomMargin": true
+				},
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "Enmity adds plugins and themes to your Discord client!\nEnmity is always tested against the latest stable version, make sure you have the latest stable version from the App Store.\nThe dev version of Enmity injects the react devtools into the app, it's only useful for plugins developers."
+				},
+				{
+					"class": "DepictionSpacerView",
+					"spacing": 15
+				},
+				{
+					"class": "DepictionHeaderView",
+					"title": "Links"
+				},
+				{
+					"class": "DepictionButtonView",
+					"text": "Discord Server",
+					"action": "https://discord.gg/enmityapp"
+				},
+				{
+					"class": "DepictionButtonView",
+					"text": "Source Code",
+					"action": "https://github.com/enmity-mod/tweak"
+				}
+			]
+		},
+		{
+			"class": "DepictionStackView",
+			"tabname": "Changelog",
+			"views": [
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "### Version 2.1.2\n- Fix compatibility with Discord v140\n- Removed react devtools script from normal Enmity, use dev version instead if you need it"
+				}
+			]
+		}
+	]
+}

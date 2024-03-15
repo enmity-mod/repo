@@ -1,0 +1,72 @@
+Package: app.enmity
+Version: 2.2.6
+Architecture: iphoneos-arm
+Maintainer: Rosie
+Installed-Size: 432
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/app.enmity_2.2.6_iphoneos-arm.deb
+Size: 79394
+MD5sum: 60c13f398fdebda5e03ec2c1cc68b9e0
+SHA1: 821704c72230d649f191e405ef905e1b3a20217c
+SHA256: ed7a1c04ac153de812bc65a9f84c95c6a5b096355c9dfd8ce3cf2fb55a7ab155
+Section: Tweaks
+Description: The power of addons, all in your hand.
+Author: Zoey & Eternal
+Icon: https://enmity-mod.github.io/repo/icons/Enmity.png
+Name: Enmity
+Sileodepiction: https://enmity-mod.github.io/repo/depictions/enmity.json
+
+Package: app.enmity.dev
+Version: 2.2.6
+Architecture: iphoneos-arm
+Maintainer: Rosie
+Installed-Size: 432
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/app.enmity.dev_2.2.6_iphoneos-arm.deb
+Size: 79560
+MD5sum: a852817c74f811eef8e7ea45d34c7972
+SHA1: 04949e9150b074ef1524e82225de6fca496d8f1b
+SHA256: 58036b9373aaea9ffc1c9c83faea203f9198fffeaf9db7c7d019069f8819042b
+Section: Tweaks
+Description: The power of addons, all in your hand.
+Author: Zoey & Eternal
+Icon: https://enmity-mod.github.io/repo/icons/Enmity.png
+Name: Enmity (Dev)
+Sileodepiction: https://enmity-mod.github.io/repo/depictions/enmity.json
+
+Package: app.enmity.dev.rootless
+Version: 2.2.6
+Architecture: iphoneos-arm64
+Maintainer: Rosie
+Installed-Size: 432
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/app.enmity.dev_2.2.6_iphoneos-arm-Rootless.deb
+Size: 79580
+MD5sum: 9f1f7843aaa38805e1372d25de3b5bbc
+SHA1: 98c4477d4ac33d0feb4b178d3d488e6d4c43736a
+SHA256: 33d65e4ae07b02fba6c3c6bec14b1d7e38a676a722219ad2ad3a134988c63192
+Section: Tweaks
+Description: The power of addons, all in your hand.
+Author: Zoey & Eternal
+Icon: https://enmity-mod.github.io/repo/icons/Enmity.png
+Name: Enmity (Dev Rootless)
+Sileodepiction: https://enmity-mod.github.io/repo/depictions/enmity.json
+
+Package: app.enmity.rootless
+Version: 2.2.6
+Architecture: iphoneos-arm64
+Maintainer: Rosie
+Installed-Size: 432
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/app.enmity_2.2.6_iphoneos-arm-Rootless.deb
+Size: 79512
+MD5sum: 97657a31fda3eafd18ff624011a8bd78
+SHA1: 2e72167329518248902260d614212a574040cfa9
+SHA256: 10d434d8d4da87baebf58f04a9190f729445388077ab52e44983939d73ee906a
+Section: Tweaks
+Description: The power of addons, all in your hand.
+Author: Zoey & Eternal
+Icon: https://enmity-mod.github.io/repo/icons/Enmity.png
+Name: Enmity (Rootless)
+Sileodepiction: https://enmity-mod.github.io/repo/depictions/enmity.json
+

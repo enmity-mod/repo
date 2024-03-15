@@ -1,0 +1,9 @@
+Origin: Enmity
+Label: Enmity
+Suite: stable
+Version: 1.0
+Architectures: iphoneos-arm iphoneos-arm64
+Components: main
+Codename: zoey
+Description: Official repository for Enmity
+SignWith: 2E39D5064B289179FF9E011C0346E00F8F4C21B8
