@@ -1,6 +1,8 @@
 {
   "name": "Enmity",
   "identifier": "enmity",
+  "subtitle": "Altstore repository for a tweaked Discord app using Enmity.",
+  "website": "https://enmity-mod.github.io/repo",
   "apps": [
     {
       "name": "Enmity",
