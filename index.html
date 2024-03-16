@@ -4,12 +4,73 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Enmity</title>
+  <link rel="stylesheet" href="styles/cells.css">
+  <title>Enmity Repo</title>
 </head>
 <body>
-  <h2>Enmity Repo</h2>
 
-  <a href="sileo://source/https://enmity-mod.github.io/repo/">Add the repo to Sileo</a><br/>
-  <a href="cydia://url/https://cydia.saurik.com/api/share#?source=https://enmity-mod.github.io/repo/">Add the repo to Cydia</a>
+  <!-- Title -->
+  <div style="padding-top: 16px;"></div>
+  <h1 style="color: white; text-align:left; font-size: 35px;">Enmity Repo</h1>
+  
+  <!-- Package Managers table -->
+  <panel style="padding-top: -10px;">
+    <fieldset style="clear:both">
+    <label>Information</label>
+    <div>
+      This repo supports most package managers provided in jailbroken iOS, press a button to add to your preferred package manager.
+    </div>
+    
+    </fieldset>
+
+    <fieldset style="clear:both">
+      <a class="button" href="cydia://url/https://cydia.saurik.com/api/share#?source=https://enmity-mod.github.io/repo/">
+        <img src="styles/cydia.png" alt="Cydia Icon" class="icon">
+        Add to Cydia
+      </a>
+    </fieldset>
+    <fieldset style="clear:both">
+      <a class="button" href="sileo://source/https://enmity-mod.github.io/repo/">
+        <img src="styles/sileo.png" alt="Sileo Icon" class="icon">
+        Add to Sileo
+      </a>
+    </fieldset>
+    <fieldset style="clear:both">
+      <a class="button" href="zbra://sources/add/https://enmity-mod.github.io/repo/">
+        <img src="styles/zeeb.png" alt="Zebra Icon" class="icon">
+        Add to Zebra
+      </a>
+    </fieldset>
+  </panel>
+  <div style="text-align:left;">
+    <h2 style="text-transform: none; padding-top: 0px; margin-right: 16px;">The order of package managers are in alphabetical order (A-Z).
+    </h2>
+  </div>
+
+
+
+
+
+
+  <div style="padding-top: 16px;"></div>
+  <panel>
+    <fieldset style="clear:both; padding-top: 15px;">
+      <div>
+        This repository also supports <a href="https://altstore.io/">Altstore!</a> Press here to add to Altstore.
+      </div>
+    </fieldset>
+    <fieldset style="clear:both">
+      <a class="button" href="altstore://source?URL=https://enmity-mod.github.io/repo/altstore.json">
+        <img src="styles/altstore.png" alt="Zebra Icon" class="icon">
+        Add to Altstore
+      </a>
+    </fieldset>
+  </panel>
+
+
+
+
+  <div style="padding-bottom: 40px;"></div>
+  <!-- End -->
 </body>
 </html>
