@@ -49,7 +49,7 @@ body {
 	width: device-width;
 	max-width: 514px !important;
 	font-family: ".SFNSText-Medium", -apple-system, "Helvetica Neue", "Lucida Grande", -apple-system-font, system-ui, "SFProDisplay-Regular", "BlinkMacSystemFont", sans-serif;
-	background: url("/styles/Enmity_backsplash.png") no-repeat fixed;
+	background: url("./Enmity_backsplash.png") no-repeat fixed;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;

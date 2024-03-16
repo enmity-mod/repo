@@ -4,18 +4,26 @@
   "apps": [
     {
       "name": "Enmity",
-      "bundleIdentifier": "com.hammerandchisel.discord",
+      "bundleIdentifier": "com.rileytestut.AltStore",
       "developerName": "Enmity Team",
-      "subtitle": "The power of addons, all in your hand.",
-      "version": "213.0",
-      "versionDate": "2024-03-00",
-      "versionDescription": "- Updated Discord to 213.0",
-      "downloadURL": "https://github.com/enmity-mod/tweak/releases/latest/download/enmity.ipa",
-      "localizedDescription": "Add plugins and themes to Discord!",
-      "iconURL": "https://enmity-mod.github.io/repo/CydiaIcon@3x.png",
+      "versions": [
+        {
+          "version": "213.0",
+          "date": "2023-09-18T12:00:00-05:00",
+          "localizedDescription": "Add plugins and themes to Discord!",
+          "downloadURL": "https://github.com/enmity-mod/tweak/releases/latest/download/enmity.ipa",
+          "size": 76794285,
+          "minOSVersion": "13.0"
+        }
+      ],
       "tintColor": "6D00FF",
-      "size": 76794285,
-      "beta": false
+      "category": "Tweaked",
+      "screenshotURLs": [
+        "https:\/\/enmity-mod.github.io\/repo\/screenshots_iphone\/chat.png",
+        "https:\/\/enmity-mod.github.io\/repo\/screenshots_iphone\/plugins.png",
+        "https:\/\/enmity-mod.github.io\/repo\/screenshots_iphone\/profile.png",
+        "https:\/\/enmity-mod.github.io\/repo\/screenshots_iphone\/settings.png"
+      ]
     }
   ],
   "userInfo": {}
