@@ -1,96 +1,33 @@
 {
   "name": "Enmity",
   "identifier": "enmity",
+  "subtitle": "Altstore repository for a tweaked Discord app using Enmity.",
+  "website": "https://enmity-mod.github.io/repo",
   "apps": [
     {
       "name": "Enmity",
-      "bundleIdentifier": "com.hammerandchisel.discord",
-      "developerName": "Enmity Team",
-      "subtitle": "The power of addons, all in your hand.",
-      "version": "147.0",
-      "versionDate": "2022-10-05",
-      "versionDescription": "- Updated Discord to 174.0",
-      "downloadURL": "https://github.com/enmity-mod/tweak/releases/download/v2.1.4-147.0/enmity.ipa",
+      "bundleIdentifier": "com.rileytestut.AltStore",
       "localizedDescription": "Add plugins and themes to Discord!",
-      "iconURL": "https://files.enmity.app/icon-altstore.png",
-      "tintColor": "6D00FF",
-      "size": 76794285,
-      "beta": false
-    },
-    {
-      "name": "Enmity (Dev)",
-      "bundleIdentifier": "com.hammerandchisel.discord",
       "developerName": "Enmity Team",
-      "subtitle": "The power of addons, all in your hand.",
-      "version": "147.0",
-      "versionDate": "2022-10-05",
-      "versionDescription": "- Updated Discord to 174.0",
-      "downloadURL": "https://github.com/enmity-mod/tweak/releases/download/v2.1.4-147.0/enmity.dev.ipa",
-      "localizedDescription": "Add plugins and themes to Discord!",
-      "iconURL": "https://files.enmity.app/icon-altstore.png",
+      "versions": [
+        {
+          "version": "213.0",
+          "date": "2023-09-18T12:00:00-05:00",
+          "localizedDescription": "• Update discord to 213.0",
+          "downloadURL": "https://github.com/enmity-mod/tweak/releases/latest/download/enmity.ipa",
+          "size": 76794285,
+          "minOSVersion": "13.0"
+        }
+      ],
       "tintColor": "6D00FF",
-      "size": 76794347,
-      "beta": false
-    },
-    {
-      "name": "Enmity",
-      "bundleIdentifier": "com.hammerandchisel.discord",
-      "developerName": "Enmity Team",
-      "subtitle": "The power of addons, all in your hand.",
-      "version": "144.0",
-      "versionDate": "2022-09-14",
-      "versionDescription": "- Updated Discord to 144.0",
-      "downloadURL": "https://github.com/enmity-mod/tweak/releases/download/v2.1.3-144/enmity.ipa",
-      "localizedDescription": "Add plugins and themes to Discord!",
-      "iconURL": "https://files.enmity.app/icon-altstore.png",
-      "tintColor": "6D00FF",
-      "size": 76659846,
-      "beta": false
-    },
-    {
-      "name": "Enmity (Dev)",
-      "bundleIdentifier": "com.hammerandchisel.discord",
-      "developerName": "Enmity Team",
-      "subtitle": "The power of addons, all in your hand.",
-      "version": "144.0",
-      "versionDate": "2022-09-14",
-      "versionDescription": "- Updated Discord to 144.0",
-      "downloadURL": "https://github.com/enmity-mod/tweak/releases/download/v2.1.3-144/enmity.dev.ipa",
-      "localizedDescription": "Add plugins and themes to Discord!",
-      "iconURL": "https://files.enmity.app/icon-altstore.png",
-      "tintColor": "6D00FF",
-      "size": 76659846,
-      "beta": false
-    },
-    {
-      "name": "Enmity",
-      "bundleIdentifier": "com.hammerandchisel.discord",
-      "developerName": "Enmity Team",
-      "subtitle": "The power of addons, all in your hand.",
-      "version": "141.0",
-      "versionDate": "2022-08-24",
-      "versionDescription": "- Moved React DevTools to its own tweak (development builds of the deb & ipa can be found on the release/repo)\n- Fixes for v140\n- Huge startup speed improvements",
-      "downloadURL": "https://github.com/enmity-mod/tweak/releases/download/v2.1.3/enmity.ipa",
-      "localizedDescription": "Add plugins and themes to Discord!",
-      "iconURL": "https://files.enmity.app/icon-altstore.png",
-      "tintColor": "6D00FF",
-      "size": 74660529,
-      "beta": false
-    },
-    {
-      "name": "Enmity (Dev)",
-      "bundleIdentifier": "com.hammerandchisel.discord",
-      "developerName": "Enmity Team",
-      "subtitle": "The power of addons, all in your hand.",
-      "version": "141.0",
-      "versionDate": "2022-08-24",
-      "versionDescription": "- Moved React DevTools to its own tweak (development builds of the deb & ipa can be found on the release/repo)\n- Fixes for v140\n- Huge startup speed improvements",
-      "downloadURL": "https://github.com/enmity-mod/tweak/releases/download/v2.1.3/enmity.dev.ipa",
-      "localizedDescription": "Add plugins and themes to Discord!",
-      "iconURL": "https://files.enmity.app/icon-altstore.png",
-      "tintColor": "6D00FF",
-      "size": 74660591,
-      "beta": false
+      "category": "Tweaked",
+      "iconURL": "https://enmity-mod.github.io/repo/CydiaIcon@3x.png",
+      "screenshotURLs": [
+        "https:\/\/enmity-mod.github.io\/repo\/screenshots_iphone\/chat.png",
+        "https:\/\/enmity-mod.github.io\/repo\/screenshots_iphone\/plugins.png",
+        "https:\/\/enmity-mod.github.io\/repo\/screenshots_iphone\/profile.png",
+        "https:\/\/enmity-mod.github.io\/repo\/screenshots_iphone\/settings.png"
+      ]
     }
   ],
   "userInfo": {}
