@@ -5,12 +5,13 @@
     {
       "name": "Enmity",
       "bundleIdentifier": "com.rileytestut.AltStore",
+      "localizedDescription": "Add plugins and themes to Discord!",
       "developerName": "Enmity Team",
       "versions": [
         {
           "version": "213.0",
           "date": "2023-09-18T12:00:00-05:00",
-          "localizedDescription": "Add plugins and themes to Discord!",
+          "localizedDescription": "• Update discord to 213.0",
           "downloadURL": "https://github.com/enmity-mod/tweak/releases/latest/download/enmity.ipa",
           "size": 76794285,
           "minOSVersion": "13.0"
