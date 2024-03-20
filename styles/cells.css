@@ -49,11 +49,9 @@ body {
 	width: device-width;
 	max-width: 514px !important;
 	font-family: ".SFNSText-Medium", -apple-system, "Helvetica Neue", "Lucida Grande", -apple-system-font, system-ui, "SFProDisplay-Regular", "BlinkMacSystemFont", sans-serif;
-	background: url("./Enmity_backsplash.png") no-repeat fixed;
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
+	background: linear-gradient(#323174, #413da1, #2d2778, #1d1a5b); /* enmity gradient*/
 	background-size: cover;
+    background-attachment: fixed;
 	min-font-size: 13px;
 	font-size: 13px;
 	text-align: center;
