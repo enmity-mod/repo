@@ -6,7 +6,7 @@
   "apps": [
     {
       "name": "Enmity",
-      "bundleIdentifier": "com.rileytestut.AltStore",
+      "bundleIdentifier": "com.hammerandchisel.discord",
       "localizedDescription": "Add plugins and themes to Discord!",
       "developerName": "Enmity Team",
       "versions": [
