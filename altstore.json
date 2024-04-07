@@ -1,34 +1,63 @@
 {
-  "name": "Enmity",
-  "identifier": "enmity",
-  "subtitle": "Altstore repository for a tweaked Discord app using Enmity.",
-  "website": "https://enmity-mod.github.io/repo",
-  "apps": [
-    {
-      "name": "Enmity",
-      "bundleIdentifier": "com.hammerandchisel.discord",
-      "localizedDescription": "Add plugins and themes to Discord!",
-      "developerName": "Enmity Team",
-      "versions": [
+    "name": "Enmity",
+    "identifier": "enmity",
+    "subtitle": "Add plugins and themes to Discord!",
+    "description": "Add plugins and themes to Discord!",
+    "iconURL": "https://enmity-mod.github.io/repo/CydiaIcon@3x.png",
+    "website": "https://enmity.unbound.rip/",
+    "tintColor": "#6D00FF",
+    "featuredApps": [
+    "com.hammerandchisel.discord"
+    ],
+    "apps": [
         {
-          "version": "219.1",
-          "date": "2023-09-18T12:00:00-05:00",
-          "localizedDescription": "• Update discord to 219.1",
-          "downloadURL": "https://github.com/enmity-mod/tweak/releases/download/v2.2.6/Enmity.ipa",
-          "size": 76794285,
-          "minOSVersion": "13.0"
+            "name": "Enmity",
+            "bundleIdentifier": "com.hammerandchisel.discord",
+            "developerName": "Enmity Team",
+            "subtitle": "Add plugins and themes to Discord!",
+            "localizedDescription": "Add plugins and themes to Discord!",
+            "iconURL": "https://enmity-mod.github.io/repo/CydiaIcon@3x.png",
+            "tintColor": "#6D00FF",
+            "category": "utilities",
+            "screenshotURLs": [
+                "https://enmity-mod.github.io\/repo\/screenshots_iphone/chat.png",
+                "https://enmity-mod.github.io\/repo\/screenshots_iphone/plugins.png",
+                "https://enmity-mod.github.io\/repo\/screenshots_iphone/profile.png",
+                "https://enmity-mod.github.io\/repo\/screenshots_iphone/settings.png"
+            ],
+            "versions": [
+                {
+                "version": "219.1",
+                "date": "2023-09-18T12:00:00-05:00",
+                "localizedDescription": "• Update Discord to 213.0",
+                "downloadURL": "https://github.com/enmity-mod/tweak/releases/latest/download/enmity.ipa",
+                "size": 76794285,
+                "minOSVersion": "15.0"
+                }
+            ],
+            "appPermissions": {
+                "entitlements": [
+                    "com.apple.developer.associated-appclip-app-identifiers",
+                    "com.apple.security.application-groups",
+                    "com.apple.developer.associated-domains",
+                    "com.apple.developer.storekit.request-data",
+                    "com.apple.developer.avfoundation.multitasking-camera-access",
+                    "aps-environment"
+                ],
+                "privacy": {
+                    "NSBluetoothAlwaysUsageDescription": "To connect to your devices",
+                    "NSBluetoothPeripheralUsageDescription": "To connect to your devices",
+                    "NSCameraUsageDescription": "By allowing access to your camera, you can take pictures and others will be able to see you in voice and video calls.",
+                    "NSContactsUsageDescription": "We can help you find people you know on Discord. Your contacts will be regularly sent to us so you can connect with friends. You can turn this off any time.",
+                    "NSLocalNetworkUsageDescription": "Allow Discord access to your local network to find devices using the same internet connection.",
+                    "NSLocationAlwaysAndWhenInUseUsageDescription": "To enable services that require location",
+                    "NSLocationWhenInUseUsageDescription": "To enable services that require location",
+                    "NSLocationAlwaysUsageDescription": "To enable services that require location",
+                    "NSMicrophoneUsageDescription": "By allowing access to your microphone, you&#39;ll be able to talk in calls.",
+                    "NSPhotoLibraryAddUsageDescription": "By allowing access to your library, you&#39;ll be able to download photos and videos.",
+                    "NSPhotoLibraryUsageDescription": "By allowing us access to your photos, you will be able to upload images as an avatar, server icon, and more, and you can send photos and videos to your friends and communities."
+                }
+            }
         }
-      ],
-      "tintColor": "6D00FF",
-      "category": "Tweaked",
-      "iconURL": "https://enmity-mod.github.io/repo/CydiaIcon@3x.png",
-      "screenshotURLs": [
-        "https:\/\/enmity-mod.github.io\/repo\/screenshots_iphone\/chat.png",
-        "https:\/\/enmity-mod.github.io\/repo\/screenshots_iphone\/plugins.png",
-        "https:\/\/enmity-mod.github.io\/repo\/screenshots_iphone\/profile.png",
-        "https:\/\/enmity-mod.github.io\/repo\/screenshots_iphone\/settings.png"
-      ]
-    }
-  ],
-  "userInfo": {}
+    ]
 }
