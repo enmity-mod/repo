@@ -19,6 +19,8 @@
             "iconURL": "https://enmity-mod.github.io/repo/CydiaIcon@3x.png",
             "tintColor": "#6D00FF",
             "category": "utilities",
+            "version": "219.1",
+            "downloadURL": "https://github.com/enmity-mod/tweak/releases/latest/download/enmity.ipa",
             "screenshotURLs": [
                 "https://enmity-mod.github.io\/repo\/screenshots_iphone/chat.png",
                 "https://enmity-mod.github.io\/repo\/screenshots_iphone/plugins.png",
