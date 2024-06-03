@@ -19,22 +19,32 @@
             "iconURL": "https://enmity-mod.github.io/repo/CydiaIcon@3x.png",
             "tintColor": "#6D00FF",
             "category": "utilities",
-            "version": "219.1",
+            "version": "231.1",
             "downloadURL": "https://github.com/enmity-mod/tweak/releases/latest/download/enmity.ipa",
-            "screenshotURLs": [
-                "https://enmity-mod.github.io\/repo\/screenshots_iphone/chat.png",
-                "https://enmity-mod.github.io\/repo\/screenshots_iphone/plugins.png",
-                "https://enmity-mod.github.io\/repo\/screenshots_iphone/profile.png",
-                "https://enmity-mod.github.io\/repo\/screenshots_iphone/settings.png"
+            "screenshots": {
+                "iphone": [
+                    "https://enmity-mod.github.io/repo/screenshots_iphone/chat.png",
+                    "https://enmity-mod.github.io/repo/screenshots_iphone/plugins.png",
+                    "https://enmity-mod.github.io/repo/screenshots_iphone/profile.png",
+                    "https://enmity-mod.github.io/repo/screenshots_iphone/settings.png"
+                ],
+                "ipad": [
+                    "https://enmity-mod.github.io\repo/screenshots_ipad/chat.png",
+                    "https://enmity-mod.github.io\repo/screenshots_ipad/plugins.png",
+                    "https://enmity-mod.github.io\repo/screenshots_ipad/profile.png",
+                    "https://enmity-mod.github.io\repo/screenshots_ipad/settings.png"
+                ]
+            }
+        }
             ],
             "versions": [
                 {
-                "version": "219.1",
-                "date": "2024-03-8",
-                "localizedDescription": "• Update Discord to 219.1",
-                "downloadURL": "https://github.com/enmity-mod/tweak/releases/latest/download/enmity.ipa",
-                "size": 76794285,
-                "minOSVersion": "15.0"
+                    "version": "231.1",
+                    "date": "2024-05-25T12:00:00-05:00",
+                    "localizedDescription": "• Update Discord to 230.0",
+                    "downloadURL": "https://github.com/enmity-mod/tweak/releases/latest/download/enmity.ipa",
+                    "size": 76794285,
+                    "minOSVersion": "14.0"
                 }
             ],
             "appPermissions": {
@@ -60,6 +70,4 @@
                     "NSPhotoLibraryUsageDescription": "By allowing us access to your photos, you will be able to upload images as an avatar, server icon, and more, and you can send photos and videos to your friends and communities."
                 }
             }
-        }
-    ]
 }
