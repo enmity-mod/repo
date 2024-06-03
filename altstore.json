@@ -7,7 +7,7 @@
     "website": "https://enmity.unbound.rip/",
     "tintColor": "#6D00FF",
     "featuredApps": [
-    "com.hammerandchisel.discord"
+        "com.hammerandchisel.discord"
     ],
     "apps": [
         {
@@ -34,9 +34,7 @@
                     "https://enmity-mod.github.io\repo/screenshots_ipad/profile.png",
                     "https://enmity-mod.github.io\repo/screenshots_ipad/settings.png"
                 ]
-            }
-        }
-            ],
+            },
             "versions": [
                 {
                     "version": "231.1",
@@ -70,4 +68,6 @@
                     "NSPhotoLibraryUsageDescription": "By allowing us access to your photos, you will be able to upload images as an avatar, server icon, and more, and you can send photos and videos to your friends and communities."
                 }
             }
+        }
+    ]
 }
