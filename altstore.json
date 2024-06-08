@@ -29,10 +29,26 @@
                     "https://enmity-mod.github.io/repo/screenshots_iphone/settings.png"
                 ],
                 "ipad": [
-                    "https://enmity-mod.github.io/repo/screenshots_ipad/chat.png",
-                    "https://enmity-mod.github.io/repo/screenshots_ipad/plugins.png",
-                    "https://enmity-mod.github.io/repo/screenshots_ipad/profile.png",
-                    "https://enmity-mod.github.io/repo/screenshots_ipad/settings.png"
+                    {
+                        "imageURL": "https://enmity-mod.github.io/repo/screenshots_ipad/chat.png",
+                        "width": 1000,
+                        "height": 692
+                    },
+                    {
+                        "imageURL": "https://enmity-mod.github.io/repo/screenshots_ipad/plugins.png",
+                        "width": 1000,
+                        "height": 692
+                    },
+                    {
+                        "imageURL": "https://enmity-mod.github.io/repo/screenshots_ipad/profile.png",
+                        "width": 1000,
+                        "height": 692
+                    },
+                    {
+                        "imageURL": "https://enmity-mod.github.io/repo/screenshots_ipad/settings.png",
+                        "width": 1000,
+                        "height": 692
+                    }
                 ]
             },
             "versions": [
