@@ -1,5 +1,6 @@
 {
   "name": "Enmity",
+  "identifier": "enmity",
   "subtitle": "Add plugins and themes to Discord!",
   "description": "Add plugins and themes to Discord!",
   "website": "https://enmity.unbound.rip/",
